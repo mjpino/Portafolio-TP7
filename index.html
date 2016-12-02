@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Josefina Pino</title>
+	<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+	<link rel="stylesheet" href="http://meyerweb.com/eric/tools/css/reset/reset.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+</head>
+<body>
+	<header>
+		<figure>
+			<img src="img/mandala.png">
+		</figure>
+	</header>
+	<main>
+		<section class="Foto-ancha"></section>
+		<section class="Descripcion">
+			<h1>Sobre mi</h1>
+			<p>Titulada en diseño gráfico en la Universidad Anáhuac México Norte, en México DF. Actualmente trabajando como diseñadora web en Falabella.com</p>
+		</section>
+		<section class="redesSociales">
+				<a href="https://github.com/mjpino" target="_blank"><span class="ion-social-github ico"></span></a>
+				<a href="https://cl.linkedin.com/in/maría-josefina-pino-maureira-30a65165" target="_blank"><span class="ion-social-linkedin ico"></span></a>
+		</section>
+	</main>
+	<footer>
+		<form action="tes.php" method="GET"> 
+			<label for="nombreCompleto"> 
+				NOMBRE
+			</label>
+			<input type="text" name="nombreCompleto" placeholder="Ej: Josefina"> 
+			
+			<label for="correo">
+				Email
+			</label>
+			<input type="email" name="correo" placeholder="josefina@gmail.com">
+
+			<label>
+				¿Deseas suscribirse a la newsletter?
+			</label>
+			<input type="checkbox" name="informacion">
+
+			<label>
+				¡Escríbeme!
+			</label>
+			<textarea name="descripcion"></textarea>
+
+			<input class="boton" type="submit" value="Enviar">
+		</form>
+	</footer>
+
+</body>
+</html>
