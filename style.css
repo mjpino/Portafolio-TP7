@@ -49,6 +49,8 @@ footer form{
 	width: 100%;
 	color: white;
 	padding: 5%;
+	box-sizing: border-box;
+	align-items: center;
 }
 
 footer label{
@@ -63,7 +65,17 @@ input{
 
 input.boton{
 	width: 48px;
-	margin-top: 5px;
+    margin-top: 13px;
+    border: none;
+    background-color: white;
+}
+
+input.boton:hover{
+	width: 48px;
+    margin-top: 13px;
+    border: none;
+    background-color: pink;
+    color: white;
 }
 
 textarea{
@@ -87,5 +99,174 @@ section span.ico{
 	color: black;
 	padding: 4px;
 }
+
+main section.mosaico h1{
+	width: 100%;
+	margin-bottom: 20px;
+}
+main .mosaico h1{
+	text-align: center;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    margin-top: 30px;
+    font-size: 34px;
+	}
+
+section.mosaico{
+	display: flex;
+	width: 100%;
+	flex-flow: row wrap;
+	padding:30px;
+	box-sizing: border-box;
+	justify-content: space-around;
+}
+
+.mosaico figure {
+	width: 24%;
+	height: 24%;
+}
+
+.mosaico figure img{
+	width: 100%;
+}
+
+	.box.a{
+		width: 24%;
+		order: 1;
+	}
+
+	.box.b{
+		width: 24%;
+		order: 2;
+	}
+
+	.box.c{
+		width: 24%;
+		order: 3;
+	}
+
+	.box.d{
+		width: 24%;
+		order: 4;
+	}
+
+	.box.e{
+		width: 24%;
+		order: 5;
+	}
+
+	.box.f{
+		width: 24%;
+		order: 6;
+	}
+
+	.box.g{
+		width: 24%;
+		order: 7;
+	}
+
+	.box.h{
+		width: 24%;
+		order: 8;
+	}
+
+@media (max-width: 900px){
+	header figure img{
+	    width: 30%;
+
+	.box.a{
+		width: 48%;
+		order: 6;
+	}
+
+	.box.b{
+		width: 48%;
+		order: 7;
+	}
+
+	.box.c{
+		width: 48%;
+		order: 8;
+	}
+
+	.box.d{
+		width: 48%;
+		order: 1;
+	}
+
+	.box.e{
+		width: 48%;
+		order: 2;
+	}
+
+	.box.f{
+		width: 48%;
+		order: 3;
+	}
+
+	.box.g{
+		width: 48%;
+		order: 4;
+	}
+
+	.box.h{
+		width: 48%;
+		order: 5;
+	}
+}
+
+
+@media (max-width: 600px){
+	header figure img{
+	    width: 55%;
+
+	.box.a{
+		width: 100%;
+		order: 8;
+	}
+
+	.box.b{
+		width: 100%;
+		order: 7;
+	}
+
+	.box.c{
+		width: 100%;
+		order: 6;
+	}
+
+	.box.d{
+		width: 100%;
+		order: 5;
+	}
+
+	.box.e{
+		width: 100%;
+		order: 4;
+	}
+
+	.box.f{
+		width: 100%;
+		order: 3;
+	}
+
+	.box.g{
+		width: 100%;
+		order: 2;
+	}
+
+	.box.h{
+		width: 100%;
+		order: 1;
+	}
+}
+
+
+
+
+
+
+
+
 
 
