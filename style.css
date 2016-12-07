@@ -219,7 +219,7 @@ section.mosaico{
 @media (max-width: 600px){
 	header figure img{
 	    width: 55%;
-
+	}
 	.box.a{
 		width: 100%;
 		order: 8;
